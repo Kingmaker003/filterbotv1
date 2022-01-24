@@ -81,6 +81,9 @@ async def filter(client, message):
             buttons.append(
                 [InlineKeyboardButton(text="🗓 1/1",callback_data="pages"),InlineKeyboardButton('🗑', callback_data='close_data'),InlineKeyboardButton('⚠️ Rules', url='https://telegra.ph/GROUP-RULES-12-27-3')]
             )
+            buttons.append(0,
+                [InlineKeyboardButton(text="⭕️ Join Our Channel ⭕️",url="https://t.me/tomhollandmovies")]
+            )
             poster=None
             if API_KEY:
                 poster=await get_poster(search)
@@ -98,7 +101,10 @@ async def filter(client, message):
         )    
         buttons.append(
             [InlineKeyboardButton(text="🗓 1/1",callback_data="pages"),InlineKeyboardButton('🗑', callback_data='close_data'),InlineKeyboardButton('⚠️ Rules', url='https://telegra.ph/GROUP-RULES-12-27-3')]
-            )
+        )
+        buttons.append(0,
+            [InlineKeyboardButton(text="⭕️ Join Our Channel ⭕️",url="https://t.me/tomhollandmovies")]
+        )
         poster=None
         if API_KEY:
             poster=await get_poster(search)
@@ -155,6 +161,9 @@ async def group(client, message):
             buttons.append(
                 [InlineKeyboardButton(text="🗓 1/1",callback_data="pages"),InlineKeyboardButton('🗑', callback_data='close_data'),InlineKeyboardButton('⚠️ Rules', url='https://telegra.ph/GROUP-RULES-12-27-3')]
             )
+            buttons.append(0,
+                [InlineKeyboardButton(text="⭕️ Join Our Channel ⭕️",url="https://t.me/tomhollandmovies")]
+            )
             poster=None
             if API_KEY:
                 poster=await get_poster(search)
@@ -173,6 +182,9 @@ async def group(client, message):
         buttons.append(
             [InlineKeyboardButton(text="🗓 1/1",callback_data="pages"),InlineKeyboardButton('🗑', callback_data='close_data'),InlineKeyboardButton('⚠️ Rules', url='https://telegra.ph/GROUP-RULES-12-27-3')]
             )
+        buttons.append(0,
+            [InlineKeyboardButton(text="⭕️ Join Our Channel ⭕️",url="https://t.me/tomhollandmovies")]
+        )
         poster=None
         if API_KEY:
             poster=await get_poster(search)
@@ -226,6 +238,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons.append(
                     [InlineKeyboardButton(text="🗓 1/1",callback_data="pages"),InlineKeyboardButton('🗑', callback_data='close_data'),InlineKeyboardButton('⚠️ Rules', url='https://telegra.ph/GROUP-RULES-12-27-3')]
                 )
+                buttons.append(0,
+                    [InlineKeyboardButton(text="⭕️ Join Our Channel ⭕️",url="https://t.me/tomhollandmovies")]
+                )
 
                 await query.edit_message_reply_markup( 
                     reply_markup=InlineKeyboardMarkup(buttons)
@@ -239,6 +254,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 )
                 buttons.append(
                     [InlineKeyboardButton(text="🗓 1/1",callback_data="pages"),InlineKeyboardButton('🗑', callback_data='close_data'),InlineKeyboardButton('⚠️ Rules', url='https://telegra.ph/GROUP-RULES-12-27-3')]
+                )
+                buttons.append(0,
+                    [InlineKeyboardButton(text="⭕️ Join Our Channel ⭕️",url="https://t.me/tomhollandmovies")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -264,6 +282,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons.append(
                     [InlineKeyboardButton(text="🗓 1/1",callback_data="pages"),InlineKeyboardButton('🗑', callback_data='close_data'),InlineKeyboardButton('⚠️ Rules', url='https://telegra.ph/GROUP-RULES-12-27-3')]
                 )
+                buttons.append(0,
+                    [InlineKeyboardButton(text="⭕️ Join Our Channel ⭕️",url="https://t.me/tomhollandmovies")]
+                )
 
                 await query.edit_message_reply_markup( 
                     reply_markup=InlineKeyboardMarkup(buttons)
@@ -277,6 +298,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 )
                 buttons.append(
                     [InlineKeyboardButton(text="🗓 1/1",callback_data="pages"),InlineKeyboardButton('🗑', callback_data='close_data'),InlineKeyboardButton('⚠️ Rules', url='https://telegra.ph/GROUP-RULES-12-27-3')]
+                )
+                buttons.append(0,
+                    [InlineKeyboardButton(text="⭕️ Join Our Channel ⭕️",url="https://t.me/tomhollandmovies")]
                 )
 
                 await query.edit_message_reply_markup( 
