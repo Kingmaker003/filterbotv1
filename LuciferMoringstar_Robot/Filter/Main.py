@@ -137,10 +137,10 @@ async def group(client, message):
                       InlineKeyboardButton(text=f"{filename}",callback_data=f"pr0fess0r_99#{file_id}")
                     ]
                 )
-        else: 
+        else:
             if SEPLLING_MODE == "on":
                 LuciferMoringstar_Robot=await client.send_message(
-                    chat_id = message.chat.id
+                    chat_id = message.chat.id,
                     text=SEPLLING_MODE_TEXT.format(message.from_user.first_name),
                     parse_mode="html",
                     reply_to_message_id=message.message_id
