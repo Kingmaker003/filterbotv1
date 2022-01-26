@@ -332,7 +332,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('🗑️', callback_data='close_data')
                 ]
                 ]
-            await query.message.edit(text=f"{FUN}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="Hey , Select", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
         elif query.data.startswith("pr0fess0r_99"):
             ident, file_id = query.data.split("#")
