@@ -132,7 +132,7 @@ async def group(client, message):
                 filename = f"[{get_size(file.file_size)}] {file.file_name}"
                 btn.append(
                     [
-                      InlineKeyboardButton(text=f"🔮{file_name}🔮", url=f"{file_link}")
+                      InlineKeyboardButton(text=f"🔮{filename}🔮", url=f"https://telegram.dog/{nyva}?start=subinps_-_-_-_{file_id}")
                       ],[
                       InlineKeyboardButton(text=f"{filename}",callback_data=f"pr0fess0r_99#{file_id}")
                     ]
