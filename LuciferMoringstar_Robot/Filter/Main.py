@@ -81,7 +81,7 @@ async def filter(client, message):
             buttons.append(
                 [InlineKeyboardButton(text="🗓 1/1",callback_data="pages"),InlineKeyboardButton('🗑', callback_data='close_data'),InlineKeyboardButton('⚠️ Rules', url='https://telegra.ph/GROUP-RULES-12-27-3')]
             )
-            buttons.append(0,
+            buttons.append(
                 [InlineKeyboardButton(text="⭕️ Join Our Channel ⭕️",url="https://t.me/tomhollandmovies")]
             )
             poster=None
@@ -102,7 +102,7 @@ async def filter(client, message):
         buttons.append(
             [InlineKeyboardButton(text="🗓 1/1",callback_data="pages"),InlineKeyboardButton('🗑', callback_data='close_data'),InlineKeyboardButton('⚠️ Rules', url='https://telegra.ph/GROUP-RULES-12-27-3')]
         )
-        buttons.append(0,
+        buttons.append(
             [InlineKeyboardButton(text="⭕️ Join Our Channel ⭕️",url="https://t.me/tomhollandmovies")]
         )
         poster=None
@@ -161,7 +161,7 @@ async def group(client, message):
             buttons.append(
                 [InlineKeyboardButton(text="🗓 1/1",callback_data="pages"),InlineKeyboardButton('🗑', callback_data='close_data'),InlineKeyboardButton('⚠️ Rules', url='https://telegra.ph/GROUP-RULES-12-27-3')]
             )
-            buttons.append(0,
+            buttons.append(
                 [InlineKeyboardButton(text="⭕️ Join Our Channel ⭕️",url="https://t.me/tomhollandmovies")]
             )
             poster=None
@@ -182,7 +182,7 @@ async def group(client, message):
         buttons.append(
             [InlineKeyboardButton(text="🗓 1/1",callback_data="pages"),InlineKeyboardButton('🗑', callback_data='close_data'),InlineKeyboardButton('⚠️ Rules', url='https://telegra.ph/GROUP-RULES-12-27-3')]
         )
-        buttons.append(0,
+        buttons.append(
             [InlineKeyboardButton(text="⭕️ Join Our Channel ⭕️",url="https://t.me/tomhollandmovies")]
         )
         poster=None
@@ -238,7 +238,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons.append(
                     [InlineKeyboardButton(text="🗓 1/1",callback_data="pages"),InlineKeyboardButton('🗑', callback_data='close_data'),InlineKeyboardButton('⚠️ Rules', url='https://telegra.ph/GROUP-RULES-12-27-3')]
                 )
-                buttons.append(0,
+                buttons.append(
                     [InlineKeyboardButton(text="⭕️ Join Our Channel ⭕️",url="https://t.me/tomhollandmovies")]
                 )
 
@@ -255,7 +255,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons.append(
                     [InlineKeyboardButton(text="🗓 1/1",callback_data="pages"),InlineKeyboardButton('🗑', callback_data='close_data'),InlineKeyboardButton('⚠️ Rules', url='https://telegra.ph/GROUP-RULES-12-27-3')]
                 )
-                buttons.append(0,
+                buttons.append(
                     [InlineKeyboardButton(text="⭕️ Join Our Channel ⭕️",url="https://t.me/tomhollandmovies")]
                 )
 
@@ -282,7 +282,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons.append(
                     [InlineKeyboardButton(text="🗓 1/1",callback_data="pages"),InlineKeyboardButton('🗑', callback_data='close_data'),InlineKeyboardButton('⚠️ Rules', url='https://telegra.ph/GROUP-RULES-12-27-3')]
                 )
-                buttons.append(0,
+                buttons.append(
                     [InlineKeyboardButton(text="⭕️ Join Our Channel ⭕️",url="https://t.me/tomhollandmovies")]
                 )
 
@@ -299,7 +299,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons.append(
                     [InlineKeyboardButton(text="🗓 1/1",callback_data="pages"),InlineKeyboardButton('🗑', callback_data='close_data'),InlineKeyboardButton('⚠️ Rules', url='https://telegra.ph/GROUP-RULES-12-27-3')]
                 )
-                buttons.append(0,
+                buttons.append(
                     [InlineKeyboardButton(text="⭕️ Join Our Channel ⭕️",url="https://t.me/tomhollandmovies")]
                 )
 
