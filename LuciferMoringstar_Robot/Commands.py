@@ -291,7 +291,7 @@ async def _banned_usrs(c, m):
 @Client.on_message(filters.command('total') & filters.user(ADMINS))
 async def total(bot, message):
     """Show total files in database"""
-    msg = await message.reply("Processing...⏳", quote=True)
+    msg = await message.reply("Wait panra...⏳", quote=True)
     try:
         total = await Media.count_documents()
         await msg.edit(f'📁 Saved files: {total}')
